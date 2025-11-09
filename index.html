@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Modern, responsive portfolio website — suitable for company or personal use. Built with HTML, CSS and vanilla JavaScript." />
-  <title>Portfolio — Your Name</title>
+  <meta name="description" content="Portfolio of Vasanth Kumar R — Software Developer based in New Delhi, India. Passionate about learning, coding, and creating impactful solutions." />
+  <title>Portfolio — Vasanth Kumar R</title>
   <style>
     :root{
-      --bg:#0f1724; /* deep navy */
+      --bg:#0f1724;
       --card:#0b1220;
       --muted:#93a3b8;
-      --accent:#5eead4; /* mint */
-      --accent-2:#60a5fa; /* sky */
+      --accent:#5eead4;
+      --accent-2:#60a5fa;
       --glass: rgba(255,255,255,0.04);
       --radius:14px;
       --maxw:1100px;
@@ -29,8 +29,6 @@
       line-height:1.45;
       scroll-behavior:smooth;
     }
-
-    /* layout */
     .wrap{max-width:var(--maxw);margin:40px auto;padding:32px}
     header{display:flex;justify-content:space-between;align-items:center;gap:16px}
     .brand{display:flex;gap:14px;align-items:center}
@@ -38,8 +36,6 @@
     nav{display:flex;gap:14px;align-items:center}
     nav a{color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:10px;transition:all .25s}
     nav a:hover{color:var(--accent);background:rgba(255,255,255,0.02);transform:translateY(-2px)}
-
-    /* hero */
     .hero{display:grid;grid-template-columns:1fr 360px;gap:32px;align-items:center;margin-top:28px}
     .card{background:linear-gradient(180deg,var(--card),rgba(10,17,28,0.6));padding:28px;border-radius:var(--radius);box-shadow:0 6px 30px rgba(2,6,23,0.6);backdrop-filter:blur(6px)}
     .hero h1{font-size:clamp(24px,4vw,40px);margin:0 0 10px}
@@ -49,54 +45,23 @@
     .btn-primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#052634;box-shadow:0 6px 18px rgba(96,165,250,0.08)}
     .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
     .btn:hover{transform:translateY(-4px)}
-
     .profile{display:flex;flex-direction:column;gap:14px;align-items:center}
     .avatar{width:100%;max-width:260px;border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,0.04)}
     .avatar img{width:100%;height:auto;display:block}
-    .meta{display:flex;gap:12px}
     .pill{padding:8px 10px;border-radius:999px;background:var(--glass);color:var(--muted);font-weight:600}
-
-    /* sections */
     section{margin-top:36px}
     .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
     .project{padding:18px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);transition:transform .28s,box-shadow .28s}
     .project:hover{transform:translateY(-8px);box-shadow:0 12px 30px rgba(2,6,23,0.6)}
-    .project h3{margin:0 0 8px}
     .muted{color:var(--muted)}
-
-    /* skills */
     .skills{display:flex;flex-wrap:wrap;gap:10px}
     .skill{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,0.02);font-weight:700;color:var(--muted)}
-
-    /* contact */
     .contact-grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
     form label{display:block;font-size:13px;margin-bottom:6px;color:var(--muted)}
     input,textarea{width:100%;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
     textarea{min-height:120px}
     .foot{margin-top:28px;color:var(--muted);font-size:13px}
-
-    /* footer */
     footer{text-align:center;margin:48px 0 16px;color:var(--muted)}
-
-    /* small screens */
-    @media (max-width:900px){
-      .hero{grid-template-columns:1fr}
-      .grid-3{grid-template-columns:repeat(2,1fr)}
-      .contact-grid{grid-template-columns:1fr}
-    }
-    @media (max-width:520px){
-      .grid-3{grid-template-columns:1fr}
-      nav{display:none}
-      header{gap:8px}
-    }
-
-    /* smooth reveal animations */
-    .reveal{opacity:0;transform:translateY(14px);transition:opacity .65s ease,transform .65s ease}
-    .reveal.visible{opacity:1;transform:none}
-
-    /* subtle floating background decoration */
-    .bg-deco{position:fixed;right:-120px;top:20vh;opacity:0.06;width:520px;height:520px;background:radial-gradient(circle at 30% 30%,var(--accent),transparent 20%),radial-gradient(circle at 70% 70%,var(--accent-2),transparent 15%);filter:blur(36px);pointer-events:none}
-
   </style>
 </head>
 <body>
@@ -104,10 +69,10 @@
   <div class="wrap">
     <header>
       <div class="brand">
-        <div class="logo">YK</div>
+        <div class="logo">VK</div>
         <div>
-          <div style="font-weight:700">Your Name</div>
-          <div style="font-size:12px;color:var(--muted)">Product-friendly Portfolio</div>
+          <div style="font-weight:700">Vasanth Kumar R</div>
+          <div style="font-size:12px;color:var(--muted)">Software Developer Portfolio</div>
         </div>
       </div>
       <nav>
@@ -122,31 +87,31 @@
     <main>
       <section class="hero reveal">
         <div class="card">
-          <h1>Hi — I'm Your Name. I design and build product-ready solutions.</h1>
-          <p>I craft modern web experiences, scalable front-ends and reliable static sites that are easy to deploy. Available for full-time roles or contract engagements.</p>
+          <h1>Hi — I'm Vasanth Kumar R. I build and design modern web applications.</h1>
+          <p>Motivated and hardworking graduate with a solid academic foundation and a strong passion for continuous learning. Eager to begin a professional career in a dynamic organization where I can apply my skills, contribute to team goals, and grow through hands-on experience and development opportunities.</p>
           <div class="cta">
             <a class="btn btn-primary" href="#contact">Work with me</a>
             <a class="btn btn-ghost" href="#projects">See projects</a>
           </div>
-
-          <div style="margin-top:18px;display:flex;gap:12px">
+          <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
             <div class="pill">Open to work</div>
             <div class="pill">Remote-friendly</div>
-            <div class="pill">Email: <span style="color:var(--accent);font-weight:700;margin-left:6px">you@company.com</span></div>
+            <div class="pill">Email: <span style="color:var(--accent);font-weight:700;margin-left:6px">vasanthraj6069@gmail.com</span></div>
+            <div class="pill">Phone: 6379833789</div>
           </div>
         </div>
 
         <aside class="profile">
           <div class="card avatar">
-            <!-- Replace with your headshot -->
-            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3f1b6c2a22b5b3b31a0a4a1e0b8fe2f2" alt="Headshot">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3f1b6c2a22b5b3b31a0a4a1e0b8fe2f2" alt="Vasanth Kumar R">
           </div>
           <div class="card" style="width:100%;text-align:center">
-            <div style="font-weight:700">Senior Frontend Engineer</div>
-            <div class="muted" style="font-size:13px;margin-top:6px">Worked with cross-functional teams at enterprise & startup environments</div>
-            <div style="margin-top:10px;display:flex;justify-content:center;gap:10px">
-              <a class="btn btn-ghost" href="#contact">Hire</a>
-              <a class="btn btn-ghost" href="/resume.pdf">Resume</a>
+            <div style="font-weight:700">Software Developer</div>
+            <div class="muted" style="font-size:13px;margin-top:6px">Based in New Delhi, India. Passionate about learning and building real-world solutions.</div>
+            <div style="margin-top:10px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap">
+              <a class="btn btn-ghost" href="#contact">Hire Me</a>
+              <a class="btn btn-ghost" href="https://github.com/vasanthraj6069/portfolio" target="_blank">GitHub</a>
+              <a class="btn btn-ghost" href="https://www.linkedin.com/in/vasanth-kumar-r-3a1b66269" target="_blank">LinkedIn</a>
             </div>
           </div>
         </aside>
@@ -155,57 +120,22 @@
       <section id="about" class="reveal">
         <div class="card">
           <h2>About</h2>
-          <p class="muted">I ship polished, maintainable front-end code using modern standards — semantic HTML, accessible components, and pragmatic JavaScript. I enjoy collaborating with designers and backend teams to deliver measurable product value.</p>
+          <p class="muted">I'm a passionate software developer who loves solving problems with clean, efficient code. My goal is to build high-quality, user-focused applications that create impact. I am eager to contribute to teams that value learning, collaboration, and innovation.</p>
         </div>
       </section>
 
       <section id="projects" class="reveal">
-        <h2 style="margin:12px 0">Selected Projects</h2>
-        <div style="display:flex;gap:12px;margin-bottom:12px;align-items:center">
-          <input id="search" placeholder="Filter projects (e.g. react, ecommerce)" style="flex:1;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
-          <select id="filterTech" style="padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
-            <option value="all">All</option>
-            <option value="react">React</option>
-            <option value="vanilla">Vanilla JS</option>
-            <option value="node">Node</option>
-          </select>
-        </div>
-
+        <h2>Projects</h2>
         <div class="grid-3" id="projectsGrid">
           <article class="project" data-tech="react">
-            <h3>Design System — UI Library</h3>
-            <p class="muted">A modular component library used by product teams. Includes tokens, components, and documentation.</p>
-            <div style="margin-top:10px"><span class="skill">React</span> <span class="skill">Storybook</span></div>
+            <h3>Portfolio Website</h3>
+            <p class="muted">A personal portfolio showcasing my projects, skills, and professional background using HTML, CSS, and JavaScript.</p>
+            <div style="margin-top:10px"><span class="skill">HTML</span> <span class="skill">CSS</span> <span class="skill">JavaScript</span></div>
           </article>
-
-          <article class="project" data-tech="vanilla">
-            <h3>Marketing Site — Fast Static</h3>
-            <p class="muted">SEO-friendly marketing site using static build, great Core Web Vitals, and CI/CD deployment.</p>
-            <div style="margin-top:10px"><span class="skill">Vanilla JS</span> <span class="skill">HTML</span></div>
-          </article>
-
-          <article class="project" data-tech="node">
-            <h3>Analytics Dashboard</h3>
-            <p class="muted">An internal dashboard that surfaces metrics with charts and real-time updates.</p>
-            <div style="margin-top:10px"><span class="skill">Node</span> <span class="skill">D3</span></div>
-          </article>
-
-          <article class="project" data-tech="react">
-            <h3>eCommerce Checkout</h3>
-            <p class="muted">Checkout flow optimized for conversion and accessibility, integrated with multiple payment providers.</p>
-            <div style="margin-top:10px"><span class="skill">React</span> <span class="skill">TypeScript</span></div>
-          </article>
-
-          <article class="project" data-tech="vanilla">
-            <h3>Interactive Map</h3>
-            <p class="muted">Lightweight map with geofencing and custom markers, optimized for mobile.</p>
-            <div style="margin-top:10px"><span class="skill">Leaflet</span> <span class="skill">JS</span></div>
-          </article>
-
           <article class="project" data-tech="node">
             <h3>Automation Scripts</h3>
-            <p class="muted">A collection of scripts for build automation, tests and code quality checks.</p>
-            <div style="margin-top:10px"><span class="skill">Node</span> <span class="skill">Bash</span></div>
+            <p class="muted">A collection of useful Node.js scripts to automate daily developer tasks and improve workflow.</p>
+            <div style="margin-top:10px"><span class="skill">Node.js</span> <span class="skill">Bash</span></div>
           </article>
         </div>
       </section>
@@ -218,11 +148,9 @@
             <div class="skill">CSS</div>
             <div class="skill">JavaScript</div>
             <div class="skill">React</div>
-            <div class="skill">TypeScript</div>
             <div class="skill">Node.js</div>
-            <div class="skill">Testing</div>
-            <div class="skill">Performance</div>
-            <div class="skill">Accessibility</div>
+            <div class="skill">Git</div>
+            <div class="skill">Problem Solving</div>
           </div>
         </div>
       </section>
@@ -231,15 +159,15 @@
         <h2>Contact</h2>
         <div class="contact-grid">
           <div class="card">
-            <p class="muted">Interested in working together? Send a message or email me at <strong style="color:var(--accent)">you@company.com</strong>.</p>
+            <p class="muted">Interested in collaborating or hiring me? Reach out at <strong style="color:var(--accent)">vasanthraj6069@gmail.com</strong> or call <strong>6379833789</strong>.</p>
             <div style="margin-top:12px">
               <div class="muted">Location</div>
-              <div>City, Country</div>
+              <div>New Delhi, India</div>
             </div>
-            <div class="foot">Available for remote or on-site roles. References available on request.</div>
+            <div class="foot">Available for remote and on-site opportunities.</div>
           </div>
 
-          <form class="card" id="contactForm" action="mailto:you@company.com" method="post" enctype="text/plain">
+          <form class="card" id="contactForm" action="mailto:vasanthraj6069@gmail.com" method="post" enctype="text/plain">
             <label for="name">Name</label>
             <input id="name" name="name" required>
             <label for="email">Email</label>
@@ -253,86 +181,15 @@
           </form>
         </div>
       </section>
-
     </main>
 
     <footer>
-      <div class="muted">© <span id="year"></span> Your Name — Built with HTML, CSS & vanilla JavaScript.</div>
+      <div class="muted">© <span id="year"></span> Vasanth Kumar R — Built with HTML, CSS & JavaScript.</div>
     </footer>
-
   </div>
 
   <script>
-    // small utility: reveal on scroll
-    const reveals = document.querySelectorAll('.reveal');
-    const io = new IntersectionObserver((entries)=>{
-      entries.forEach(e=>{
-        if(e.isIntersecting) e.target.classList.add('visible');
-      })
-    },{threshold:0.12});
-    reveals.forEach(r=>io.observe(r));
-
-    // simple project filter & search
-    const projectsGrid = document.getElementById('projectsGrid');
-    const filter = document.getElementById('filterTech');
-    const search = document.getElementById('search');
-    function refreshFilter(){
-      const q = search.value.trim().toLowerCase();
-      const tech = filter.value;
-      Array.from(projectsGrid.children).forEach(card=>{
-        const text = (card.innerText||'').toLowerCase();
-        const matchesTech = tech === 'all' || card.dataset.tech === tech;
-        const matchesQuery = q === '' || text.includes(q);
-        card.style.display = (matchesTech && matchesQuery) ? '' : 'none';
-      })
-    }
-    search.addEventListener('input',refreshFilter);
-    filter.addEventListener('change',refreshFilter);
-
-    // theme toggle (light/dark)
-    const themeToggle = document.getElementById('themeToggle');
-    const root = document.documentElement;
-    const saved = localStorage.getItem('pref-theme');
-    if(saved) root.setAttribute('data-theme', saved);
-    themeToggle.addEventListener('click',()=>{
-      const cur = root.getAttribute('data-theme');
-      const next = cur === 'light' ? 'dark' : 'light';
-      root.setAttribute('data-theme', next);
-      localStorage.setItem('pref-theme', next);
-      applyTheme(next);
-    });
-    function applyTheme(mode){
-      if(mode==='light'){
-        root.style.setProperty('--bg','#f7fafc');
-        root.style.setProperty('--card','#ffffff');
-        root.style.setProperty('--muted','#52606d');
-        root.style.setProperty('--accent','#06b6d4');
-        root.style.setProperty('--accent-2','#3b82f6');
-        root.style.setProperty('color','#052634');
-      } else {
-        root.style.setProperty('--bg','#0f1724');
-        root.style.setProperty('--card','#0b1220');
-        root.style.setProperty('--muted','#93a3b8');
-        root.style.setProperty('--accent','#5eead4');
-        root.style.setProperty('--accent-2','#60a5fa');
-        root.style.setProperty('color','#e6eef6');
-      }
-    }
-    applyTheme(saved || 'dark');
-
-    // small nicety: update year
     document.getElementById('year').textContent = new Date().getFullYear();
-
-    // progressive enhancement: support keyboard focus for cards
-    Array.from(document.querySelectorAll('.project')).forEach(p=>{p.setAttribute('tabindex',0)});
-
-    // accessible skip: keyboard nav from header
-    document.addEventListener('keydown',(e)=>{
-      if(e.key === 'k' && (e.ctrlKey || e.metaKey)){
-        e.preventDefault();
-        document.getElementById('search').focus();
-      }
-    });
   </script>
 </body>
 </html>
