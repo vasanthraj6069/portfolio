@@ -315,4 +315,24 @@
         root.style.setProperty('--muted','#93a3b8');
         root.style.setProperty('--accent','#5eead4');
         root.style.setProperty('--accent-2','#60a5fa');
-        root.style.se
+        root.style.setProperty('color','#e6eef6');
+      }
+    }
+    applyTheme(saved || 'dark');
+
+    // small nicety: update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // progressive enhancement: support keyboard focus for cards
+    Array.from(document.querySelectorAll('.project')).forEach(p=>{p.setAttribute('tabindex',0)});
+
+    // accessible skip: keyboard nav from header
+    document.addEventListener('keydown',(e)=>{
+      if(e.key === 'k' && (e.ctrlKey || e.metaKey)){
+        e.preventDefault();
+        document.getElementById('search').focus();
+      }
+    });
+  </script>
+</body>
+</html>
